@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import './App.css'
+import React, { useEffect } from 'react'
 import HomePage from '@pages/Home/Home'
 
 function App() {

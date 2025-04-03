@@ -7,7 +7,7 @@
   .title {
     font-weight: 400;
     font-size: 14px;
-    color: var(--text-primary, #1F2128);
+    color: var(--text-primary);
     line-height: 130%;
   }
   

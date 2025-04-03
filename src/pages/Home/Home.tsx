@@ -1,25 +1,10 @@
-import { FC, useMemo } from "react";
+import { FC } from "react";
 import Button from "@/components/Button/Button";
-import Checkbox from "@/components/Checkbox/Checkbox";
 import { Card, CardBody, CardFooter, CardHeader } from "@/components/Card/Card";
 import PageList from "@/components/PageList/PageList";
-import { PageSelectionProvider, usePageSelection } from "@/context/PageSelectionContext";
+import { PageSelectionProvider } from "@/context/PageSelectionContext";
 import styles from "./Home.module.css";
-
-const HeaderContent: FC = () => {
-  const { selectedPages, setAll } = usePageSelection();
-  const allSelected = useMemo(() => Object.values(selectedPages).every(Boolean), [selectedPages]);
-
-  return (
-    <div className={styles.header}>
-      <span className={styles.title}>All pages</span>
-      <Checkbox
-        initialState={allSelected}
-        onChange={(checked) => setAll(checked)}
-      />
-    </div>
-  );
-};
+import HeaderContent from "@/components/HeaderContent/HeaderContent";
 
 const HomePage: FC = () => {
   return (

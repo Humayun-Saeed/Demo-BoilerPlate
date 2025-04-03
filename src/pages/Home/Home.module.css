@@ -5,18 +5,16 @@
   align-items: center;    
   height: 100vh;         
 }
-
-  
-  .header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  .title {
+.title {
     font-weight: 400;
     font-size: 14px;
-    color: var(--text-primary, #1F2128);
+    color: var(--text-primary);
     line-height: 130%;
-  }
+ }
   
