@@ -1,0 +1,28 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    overflow-y: auto;
+  }
+  .list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .listItem {
+    padding: 8px 0;
+  }
+  
+  .listRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .pageName {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-primary, #1F2128);
+    line-height: 130%;
+  }
+  

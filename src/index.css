@@ -1,0 +1,19 @@
+[data-theme='LIGHT'] {
+  --button-primary: #FFCE22;
+  --button-primary-hover: #FFD84D;
+  --checkbox-primary: #2469F6;
+  --checkbox-primary-hover: #878787;
+  --text-primary: #1F2128;
+  --card-primary: #FFFFFF;
+  --border-color: #CDCDCD;
+  --white: #FFFFFF;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: var(--white);
+}

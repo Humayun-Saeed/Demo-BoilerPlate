@@ -1,0 +1,55 @@
+.checkboxContainer {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .hiddenCheckbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .customCheckbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #CDCDCD;
+    border-radius: 6px;
+    transition: all 0.2s;
+    background-color: white;
+  }
+  
+  .customCheckbox:hover {
+    border-color: var(--checkbox-primary-hover);
+  }
+  
+  .customCheckbox.checked {
+    background-color: var(--checkbox-primary);
+    border-color: var(--checkbox-primary);
+  }
+  
+  .checkmark {
+
+    stroke: white;
+    stroke-width: 1;
+    fill: none;
+  }
+
+  .checkmarkBlack {
+
+    stroke: var(--checkbox-primary-hover);
+    stroke-width: 1;
+    fill: none;
+    border-width: 1px;
+  }
+  
+  .labelText {
+    margin-left: 8px;
+  }

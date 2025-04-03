@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-primary, #1F2128);
+    line-height: 130%;
+  }
+  
+
+  

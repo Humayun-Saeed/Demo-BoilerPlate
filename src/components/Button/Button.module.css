@@ -1,0 +1,39 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: fit-content;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+
+.primary {
+  background-color: var(--button-primary);
+  color: black;
+}
+
+.primary:hover {
+  background-color: var(--button-primary-hover);
+}
+
+.secondary {
+  background-color: var(--button-secondary, #ffeb3b);
+  color: black;
+}
+
+.secondary:hover {
+  background-color: var(--button-secondary-hover, #fdd835);
+}
